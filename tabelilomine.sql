@@ -13,7 +13,7 @@ CREATE TABLE koostis(
     retsept_retsept_id int,
     toiduaine_id int,
     yhik_id int,
-    FOREIGN KEY (toiduaine_id,) REFERENCES toiduaine(toiduaine_id),
+    FOREIGN KEY (toiduaine_id) REFERENCES toiduaine(toiduaine_id),
     FOREIGN KEY (yhik_id) REFERENCES yhik(yhik_id
    );
 
