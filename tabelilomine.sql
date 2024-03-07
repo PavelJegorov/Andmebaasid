@@ -46,5 +46,5 @@ add FOREIGN KEY (retsept_retsept_id) REFERENCES retsept(retsept_id);
 CREATE TABLE tehtud(
     tehtud_id int PRIMARY KEY AUTO_INCREMENT,
     tehtud_kp date,
-    retsepti_id
+    retsepti_id int,
     FOREIGN KEY (retsepti_id) REFERENCES retsept(retsepti_id));
